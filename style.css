@@ -79,3 +79,16 @@ body {
 .card.matched .back {
   color: orange;
 }
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 760px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+#card-template {
+    display: none;
+}
