@@ -67,7 +67,7 @@ body {
 }
 
 .back {
-  color: white;
+  color: transparent;
   text-align: center;
   font-size: 100px;
 }
