@@ -31,8 +31,10 @@ function renderCards() {
         var copy = template.cloneNode(true)
 
         copy.removeAttribute('id')
-        copy.querySelector('.back').innerText = symbol
         copy.dataset.symbol = symbol
+
+        var img = copy.querySelector('img')
+        img.src = 'img/cards/Tropical Icon_Flat-' + symbol + '.png'
 
         cards.push(copy)
         container.appendChild(copy)
